@@ -1,4 +1,4 @@
-<script type="text/javascript">
+document.getElementById('TITLE').innerHTML = "Ch04 单例模式"
 
 // 实现 1
     function Single(value){
@@ -65,5 +65,3 @@
 
     console.log(SingleNew)
 
-
-</script>
