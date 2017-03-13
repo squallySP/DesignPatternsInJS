@@ -1,4 +1,4 @@
-<script type="text/javascript">
+document.getElementById('TITLE').innerHTML = "Ch05 策略模式"
 
 // 1. 计算年中奖 bonus。根据工资和绩效等级，计算出年终奖的金额
     // S 4倍，A 3，B 2，同时假设计算方法很复杂，不是简单的不同比率
@@ -176,5 +176,4 @@
     var u2 = new User('name', 'abcd', '123')
     console.log('u3: ', 'name', 'abcd123', '123')
     var u3 = new User('name', 'abcd123', '123')
-    
-</script>
+
